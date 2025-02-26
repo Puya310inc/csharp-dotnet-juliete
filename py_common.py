@@ -13,7 +13,7 @@ def is_generated_file(fullfilepath):
 		if firstline.strip() == get_engine_signature():
 			return True
 	return False
-
+ 
 def find_files_in_dir(directory, regex, silent=False):
 	"""
 	Finds files (non-directories) that match a regex in a certain directory.  (recursively, case-insensitive)
